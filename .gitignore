@@ -1,0 +1,51 @@
+# uni-app 特定文件
+/unpackage/dist/
+/unpackage/release/
+/unpackage/.tmp/
+/unpackage/.debug/
+
+# Node.js 依赖
+/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# 编辑器和IDE文件
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# 日志文件
+*.log
+
+# 小程序特定文件
+project.config.json
+project.private.config.json
+
+# uni-app 运行时文件
+.hbuilderx/
+.history/
+
+# 其他
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.tmp
+*.temp 

@@ -1,0 +1,36 @@
+{
+  "name": "smoke-tracker",
+  "version": "1.0.0",
+  "description": "抽烟统计小程序",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "uni-app",
+    "vue",
+    "smoking",
+    "tracker"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dcloudio/uni-ui": "^1.4.20",
+    "echarts": "^5.4.0",
+    "vue": "^2.6.14",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@dcloudio/types": "^3.0.7",
+    "@dcloudio/uni-automator": "^2.0.1",
+    "@dcloudio/uni-cli-shared": "^2.0.1",
+    "@dcloudio/uni-helper-json": "^1.0.13",
+    "@dcloudio/uni-migration": "^2.0.1",
+    "@dcloudio/uni-template-compiler": "^2.0.1",
+    "@dcloudio/vue-cli-plugin-hbuilderx": "^2.0.1",
+    "@dcloudio/vue-cli-plugin-uni": "^2.0.1",
+    "@dcloudio/vue-cli-plugin-uni-optimize": "^2.0.1",
+    "@dcloudio/webpack-uni-mp-loader": "^2.0.1",
+    "@dcloudio/webpack-uni-pages-loader": "^2.0.1"
+  }
+}

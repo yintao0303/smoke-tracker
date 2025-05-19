@@ -1,0 +1,120 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "戒烟助手",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#8A6EF3",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录/注册",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#8A6EF3",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/onboarding/onboarding",
+      "style": {
+        "navigationBarTitleText": "欢迎使用",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#8A6EF3",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/dashboard/dashboard",
+      "style": {
+        "navigationBarTitleText": "数据看板",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#8A6EF3",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/calendar/calendar",
+      "style": {
+        "navigationBarTitleText": "历史记录",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#8A6EF3",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/achievement/achievement",
+      "style": {
+        "navigationBarTitleText": "成就系统",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#8A6EF3",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/social/social",
+      "style": {
+        "navigationBarTitleText": "社交互动",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#8A6EF3",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/profile/profile",
+      "style": {
+        "navigationBarTitleText": "个人中心",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#8A6EF3",
+        "enablePullDownRefresh": false
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "戒烟助手",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#8A6EF3",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "打卡",
+        "iconPath": "static/images/tab-home.png",
+        "selectedIconPath": "static/images/tab-home-active.png"
+      },
+      {
+        "pagePath": "pages/dashboard/dashboard",
+        "text": "数据",
+        "iconPath": "static/images/tab-stats.png",
+        "selectedIconPath": "static/images/tab-stats-active.png"
+      },
+      {
+        "pagePath": "pages/calendar/calendar",
+        "text": "历史",
+        "iconPath": "static/images/tab-calendar.png",
+        "selectedIconPath": "static/images/tab-calendar-active.png"
+      },
+      {
+        "pagePath": "pages/achievement/achievement",
+        "text": "成就",
+        "iconPath": "static/images/tab-achievement.png",
+        "selectedIconPath": "static/images/tab-achievement-active.png"
+      },
+      {
+        "pagePath": "pages/social/social",
+        "text": "社交",
+        "iconPath": "static/images/tab-social.png",
+        "selectedIconPath": "static/images/tab-social-active.png"
+      }
+    ]
+  }
+}
